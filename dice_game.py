@@ -32,3 +32,4 @@ for i in range(1,20):
     df.loc[i,"WIP"] = df.loc[i-1,"WIP"] + Input - D
     
 print(df.mean())
+# Hao changes this!
